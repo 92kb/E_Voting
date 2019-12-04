@@ -1,0 +1,17 @@
+Base Exception Type: System.ArgumentException: Provided type System.Security.Cryptography.RSAParameters either does not have a parameterless constructor or does not implement IExplicitlySerialize
+Parameter name: resultType
+   at NetworkCommsDotNet.DPSBase.ExplicitSerializer.DeserialiseDataObjectInt(Stream inputStream, Type resultType, Dictionary`2 options)
+   at NetworkCommsDotNet.DPSBase.DataSerializer.DeserialiseGeneralObject[T](MemoryStream receivedObjectStream, List`1 dataProcessors, Dictionary`2 options)
+   at NetworkCommsDotNet.DPSBase.DataSerializer.DeserialiseDataObject[T](MemoryStream receivedObjectStream, List`1 dataProcessors, Dictionary`2 options)
+   at NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.DeSerialize(MemoryStream incomingBytes, SendReceiveOptions options)
+   at NetworkCommsDotNet.NetworkComms.TriggerAllPacketHandlers(PacketHeader packetHeader, Connection connection, MemoryStream dataStream, SendReceiveOptions options, Boolean ignoreUnknownPacketTypeOverride)
+   at NetworkCommsDotNet.NetworkComms.TriggerAllPacketHandlers(PacketHeader packetHeader, Connection connection, MemoryStream dataStream, SendReceiveOptions options)
+   at NetworkCommsDotNet.NetworkComms.CompleteIncomingItemTask(Object priorityQueueItemObj)
+
+Stack Trace:    at NetworkCommsDotNet.DPSBase.ExplicitSerializer.DeserialiseDataObjectInt(Stream inputStream, Type resultType, Dictionary`2 options)
+   at NetworkCommsDotNet.DPSBase.DataSerializer.DeserialiseGeneralObject[T](MemoryStream receivedObjectStream, List`1 dataProcessors, Dictionary`2 options)
+   at NetworkCommsDotNet.DPSBase.DataSerializer.DeserialiseDataObject[T](MemoryStream receivedObjectStream, List`1 dataProcessors, Dictionary`2 options)
+   at NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.DeSerialize(MemoryStream incomingBytes, SendReceiveOptions options)
+   at NetworkCommsDotNet.NetworkComms.TriggerAllPacketHandlers(PacketHeader packetHeader, Connection connection, MemoryStream dataStream, SendReceiveOptions options, Boolean ignoreUnknownPacketTypeOverride)
+   at NetworkCommsDotNet.NetworkComms.TriggerAllPacketHandlers(PacketHeader packetHeader, Connection connection, MemoryStream dataStream, SendReceiveOptions options)
+   at NetworkCommsDotNet.NetworkComms.CompleteIncomingItemTask(Object priorityQueueItemObj)

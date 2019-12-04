@@ -1,0 +1,10 @@
+Base Exception Type: System.Security.Cryptography.CryptographicException: The data to be decrypted exceeds the maximum for this modulus of 128 bytes.
+   at System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   at VotingFacility.Program.CheckUser(PacketHeader header, Connection connection, Byte[] message) in E:\CS_Bing\Comp Security\E_Voting\VotingFacility\Program.cs:line 80
+   at NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj)
+   at NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride)
+
+Stack Trace:    at System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   at VotingFacility.Program.CheckUser(PacketHeader header, Connection connection, Byte[] message) in E:\CS_Bing\Comp Security\E_Voting\VotingFacility\Program.cs:line 80
+   at NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj)
+   at NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride)

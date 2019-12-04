@@ -1,0 +1,10 @@
+E:\CS_Bing\Comp Security\E_Voting\VotingFacility\bin\Debug\VotingFacility.exe.config
+E:\CS_Bing\Comp Security\E_Voting\VotingFacility\bin\Debug\VotingFacility.exe
+E:\CS_Bing\Comp Security\E_Voting\VotingFacility\bin\Debug\VotingFacility.pdb
+E:\CS_Bing\Comp Security\E_Voting\VotingFacility\bin\Debug\NetworkCommsDotNet.dll
+E:\CS_Bing\Comp Security\E_Voting\VotingFacility\obj\Debug\VotingFacility.csproj.CoreCompileInputs.cache
+E:\CS_Bing\Comp Security\E_Voting\VotingFacility\obj\Debug\VotingFacility.csproj.CopyComplete
+E:\CS_Bing\Comp Security\E_Voting\VotingFacility\obj\Debug\VotingFacility.exe
+E:\CS_Bing\Comp Security\E_Voting\VotingFacility\obj\Debug\VotingFacility.pdb
+E:\CS_Bing\Comp Security\E_Voting\VotingFacility\bin\Debug\protobuf-net.dll
+E:\CS_Bing\Comp Security\E_Voting\VotingFacility\bin\Debug\protobuf-net.xml
